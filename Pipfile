@@ -1,0 +1,22 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.douban.com/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+django = "*"
+djangorestframework = "*"
+djangorestframework-jwt = "*"
+mysqlclient = {path = "./mysqlclient-1.4.6-cp39-cp39-win_amd64.whl"}
+django-cors-headers = "*"
+coreapi = "*"
+httprunner = "~=3.1.6"
+pymysql = "*"
+jsonpath = "*"
+pike = "*"
+allure-pytest = "*"
+
+[requires]
+python_version = "3.9"
